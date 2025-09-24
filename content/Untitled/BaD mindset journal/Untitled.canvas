@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"66ba00e0553ca680","type":"text","text":"[[My Ability to Choose]]","x":151,"y":-770,"width":200,"height":50},
+		{"id":"6c3b2301a9a46cd3","type":"text","text":"Choice","x":40,"y":-900,"width":131,"height":60},
+		{"id":"2511b03160560f87","type":"text","text":"[[The Meaning of Choice]]","x":-140,"y":-770,"width":220,"height":50},
+		{"id":"1d9c98956acaa9b9","type":"text","text":"[[Enacting Choice]]","x":-112,"y":-660,"width":165,"height":50},
+		{"id":"910be6006b7667f4","type":"text","text":"[[My Goal for Choice]]","x":151,"y":-660,"width":200,"height":50}
+	],
+	"edges":[
+		{"id":"4a0372bff1ac11ad","fromNode":"2511b03160560f87","fromSide":"top","toNode":"6c3b2301a9a46cd3","toSide":"bottom","toEnd":"none"},
+		{"id":"637d0c0b332950c8","fromNode":"66ba00e0553ca680","fromSide":"top","toNode":"6c3b2301a9a46cd3","toSide":"bottom","toEnd":"none"},
+		{"id":"ac8a5c38739d1839","fromNode":"1d9c98956acaa9b9","fromSide":"top","toNode":"2511b03160560f87","toSide":"bottom","toEnd":"none"},
+		{"id":"804380755779293f","fromNode":"910be6006b7667f4","fromSide":"top","toNode":"66ba00e0553ca680","toSide":"bottom","toEnd":"none"}
+	]
+}

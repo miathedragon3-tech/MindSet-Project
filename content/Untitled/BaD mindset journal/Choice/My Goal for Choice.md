@@ -1,0 +1,1 @@
+I intend to get better at following what I want to do instead of just what is expected of me. I also want to get better at responding instead of reacting since I tend to just react and it tends to not benefit me and just hinder me.
