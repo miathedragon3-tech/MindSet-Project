@@ -3,31 +3,36 @@ name: Deploy Quartz site
 on:
   push:
     branches:
-      - v4   # change if your main branch has a different name
-  workflow_dispatch:  # allows manual trigger from GitHub Actions tab
+      - v4      # your main working branch
+  workflow_dispatch:  # manual trigger from Actions tab
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout your code
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # 2️⃣ Setup Node.js (latest Quartz-compatible version)
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 24   # latest Node 24.x
+          node-version: 24  # Latest Node.js 24.x
 
+      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm install
 
+      # 4️⃣ Build Quartz site
       - name: Build Quartz
         run: npx quartz build
 
+      # 5️⃣ Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: gh-pages   # change if you want a different branch
+          publish_dir: ./public   # Quartz outputs to 'public'
+          publish_branch: gh-pages  # Branch GitHub Pages will serve
