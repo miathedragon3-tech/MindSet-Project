@@ -1,1 +1,0 @@
-1. A good example of me actively choosing and making a decision and working towards my main goal is when I decided that I would no longer take French so I could take 2 art classes. I did this so I could more easily create a portfolio for applying to collages and art school. I did this so I could have more time to do art since I have a very tight schedule. 

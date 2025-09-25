@@ -1,1 +1,0 @@
-I would rate my ability with this mind set like a 7 since I know I have the ability to choose but I have issues enacting my choices or actively being present in my life. So I Need to follow what I want to do and ignore my doubts and actively work towards my  
